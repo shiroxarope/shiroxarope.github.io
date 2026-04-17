@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arlan - Character Page</title>
+    <link rel="shortcut icon" href="img/arlan-icon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto space-y-8">
+        
+        <!-- Header / Navigation -->
+        <header class="flex items-center justify-start gap-20">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 bg-indigo-700 rounded-2xl flex items-center justify-center text-white shadow-lg cursor-pointer">
+                    <i data-lucide="user" class="w-6 h-6"></i>
+                </div>
+                <div class="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-500 rounded-2xl flex items-center justify-center text-white shadow-lg cursor-pointer">
+                    <i data-lucide="plus" class="w-6 h-6"></i>
+                </div>
+                <button class="ml-4 bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full font-semibold shadow-md transition-colors">
+                    Log in
+                </button>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-20 font-semibold text-gray-800">
+                <a href="#" class="hover:text-purple-600 transition-colors">Home</a>
+                <a href="#" class="relative text-purple-700">
+                    Search
+                    <span class="absolute -bottom-1 left-0 w-full h-1 bg-black rounded-full"></span>
+                </a>
+                <a href="#" class="hover:text-purple-600 transition-colors">Message</a>
+            </nav>
+
+            <!-- <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-sm md:block hidden">
+                <div class="w-full h-full bg-purple-200 flex items-center justify-center">
+                    <i data-lucide="bell" class="text-purple-500"></i>
+                </div>
+            </div> -->
+        </header>
+
+        <!-- Hero Section (Arlan Banner) -->
+        <section class="relative purple-gradient rounded-[40px] shadow-2xl p-8 md:p-12 text-white min-h-[350px] flex items-center">
+    
+    <div class="absolute inset-0 rounded-[40px] overflow-hidden pointer-events-none opacity-30 z-0">
+        <div class="flex items-center justify-center w-full h-full">
+            <div class="grid grid-cols-4 grid-rows-4 gap-8 transform scale-[5] rotate-12">
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-teal-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-purple-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-yellow-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-red-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-red-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-yellow-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-purple-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-green-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-teal-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-purple-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-yellow-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-red-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-red-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-yellow-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-3 bg-purple-400 rounded-full animate-spin"></div></div>
+                <div class="flex items-center justify-center"><div class="w-2 h-1 bg-green-400 rounded-full animate-spin"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative z-10 max-w-xl">
+        <h1 class="text-6xl font-bold mb-4">Arlan</h1>
+        <p class="text-lg opacity-90 leading-relaxed mb-6">
+          He is the head of Herta Space Station's security department, often seen with a dog named Peppy.
+        </p>
+        <button class="bg-white/20 hover:bg-white/30 backdrop-blur-md px-8 py-3 rounded-full font-bold transition-all flex items-center gap-2">
+            <a href="readmore.html">Read More</a> <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+    </div>
+
+    <div class="absolute right-0 bottom-0 top-0 w-1/2 hidden lg:flex items-end justify-center z-20 pointer-events-none">
+        <img src="img/splash-art-arlan.png" 
+            alt="Arlan Splash Art" 
+            class="h-[130%] w-auto object-contain object-bottom translate-y-8 transform transition-transform hover:scale-105 duration-700"
+            style="mask-image: linear-gradient(to left, black 70%, transparent); -webkit-mask-image: linear-gradient(to left, black 70%, transparent);">
+    </div>
+</section>
+
+        <!-- Content Grid -->
+        <main class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            
+            <!-- Left: Artwork Column -->
+            <div class="md:col-span-4 space-y-6">
+                <div class="flex items-center justify-between px-2">
+
+                    <h2 class="text-2xl font-bold text-gray-800">Artwork ></h2>
+                </div>
+                <div class="flex gap-4">
+                    <div class="w-1/2 aspect-square rounded-[30px] overflow-hidden shadow-lg border-4 border-white transform -rotate-2 hover:rotate-0 transition-transform cursor-pointer">
+                        <img src="img/lightcone.png" alt="Art 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-1/2 aspect-square rounded-[30px] overflow-hidden shadow-lg border-4 border-white transform rotate-2 hover:rotate-0 transition-transform cursor-pointer">
+                        <img src="img/lightcone-2.png" alt="Art 2" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <button class="w-full py-4 bg-white rounded-full text-xl font-bold text-gray-800 shadow-md hover:shadow-lg transition-shadow">
+                    View More
+                </button>
+            </div>
+
+            <!-- Center: Search Column -->
+            <div class="md:col-span-4 space-y-6">
+                <h2 class="text-2xl font-bold text-gray-800 px-2">Recent Search</h2>
+                <div class="space-y-3">
+                    <div class="search-pill flex items-center gap-3 bg-purple-200/50 p-4 rounded-full text-purple-800 font-medium cursor-pointer">
+                        <i data-lucide="search" class="w-5 h-5"></i> Arlan chibi
+                    </div>
+                    <div class="search-pill flex items-center gap-3 bg-pink-300/50 p-4 rounded-full text-pink-900 font-medium cursor-pointer">
+                        <i data-lucide="search" class="w-5 h-5"></i> Arlan icon
+                    </div>
+                    <div class="search-pill flex items-center gap-3 bg-purple-400/50 p-4 rounded-full text-white font-medium cursor-pointer">
+                        <i data-lucide="search" class="w-5 h-5"></i> Arlan build
+                    </div>
+                    <div class="search-pill flex items-center gap-3 bg-black p-4 rounded-full text-white font-medium cursor-pointer">
+                        <i data-lucide="search" class="w-5 h-5"></i> Arlan team
+                    </div>
+                    <div class="search-pill flex items-center gap-3 bg-white p-4 rounded-full text-gray-800 font-medium border border-purple-100 shadow-sm cursor-pointer">
+                        <i data-lucide="search" class="w-5 h-5"></i> Arlan hsr
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Info & Stats Column -->
+            <div class="md:col-span-4 space-y-4">
+                <!-- Chibi Cards -->
+                <div class="flex gap-4 mb-6">
+                    <div class="relative w-1/2 aspect-square bg-[#3d2a45] rounded-3xl p-4 flex items-center justify-center">
+                        <button class="absolute -top-2 -right-2 w-6 h-6 bg-white rounded-full flex items-center justify-center shadow-md">
+                            <i data-lucide="x" class="w-4 h-4 text-purple-900"></i>
+                        </button>
+                        <div class="w-20 h-20 bg-purple-300 rounded-full animate-bounce"><img src="img/arlan-icon-2.png" alt="" srcset=""></div>
+                    </div>
+                    <div class="relative w-1/2 aspect-square bg-[#3d2a45] rounded-3xl p-4 flex items-center justify-center">
+                        <button class="absolute -top-2 -right-2 w-6 h-6 bg-white rounded-full flex items-center justify-center shadow-md">
+                            <i data-lucide="x" class="w-4 h-4 text-purple-900"></i>
+                        </button>
+                        <div class="w-20 h-20 bg-pink-300 rounded-full animate-bounce"><img src="img/arlan-icon.png" alt=""></div>
+                    </div>
+                </div>
+
+                <!-- Feature List -->
+                <div class="space-y-4">
+                    <article class="glass-card p-4 rounded-3xl flex items-center gap-4 shadow-sm hover:scale-[1.02] transition-transform">
+                       <img src="img/destruction-icon.png" alt="Destruction Icon" srcset="" class="w-12 h-12">
+                        <div>
+                            <h3 class="font-bold text-gray-800">Destruction</h3>
+                            <p class="text-xs text-gray-600 line-clamp-2">The path presided over by the Aeon Nanook. They focus on Damage Versatility.</p>
+                        </div>
+                    </article>
+
+                    <article class="glass-card p-4 rounded-3xl flex items-center gap-4 shadow-sm hover:scale-[1.02] transition-transform">
+                        <img src="img/lightning-icon.png" alt="Lightning Icon" class="w-12 h-12">
+                        <div>
+                            <h3 class="font-bold text-gray-800">Lightning</h3>
+                            <p class="text-xs text-gray-600 line-clamp-2">Dealing lightning damage can trigger Weakness Break.</p>
+                        </div>
+                    </article>
+
+                    <article class="glass-card p-4 rounded-3xl flex items-center gap-4 shadow-sm hover:scale-[1.02] transition-transform">
+                        <img src="img/space-station-icon.png" alt="Herta Space Station Icon" class="w-12 h-12">
+                        <div>
+                            <h3 class="font-bold text-gray-800">Herta Space Station</h3>
+                            <p class="text-xs text-gray-600 line-clamp-2">It is a space station founded by The Herta, member #83 of the Genius Society, and orbits a planet named the Blue.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="pt-8 pb-4 text-center text-gray-500 text-sm">
+            <p>© <span id="year"></span> Arlan Fan Page Concept. Built with Tailwind CSS.</p>
+        </footer>
+</div>
+  <div id="modal1" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 opacity-0 pointer-events-none transition-all duration-300 ease-in-out">
+    <button class="absolute top-5 right-5 text-white hover:text-gray-300 transition-colors z-[110] close-btn">
+        <i data-lucide="x" class="w-10 h-10"></i>
+    </button>
+    <div class="relative w-full max-w-sm aspect-[3/4] flip-card transition-transform duration-700 [transform-style:preserve-3d] cursor-pointer scale-90">
+        <div class="absolute inset-0 [backface-visibility:hidden]">
+            <img id="modalImg1" src="" alt="Arlan Artwork" class="w-full h-full object-cover rounded-2xl shadow-2xl border-4 border-white/20">
+        </div>
+        <div class="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] bg-indigo-900/90 text-white p-8 rounded-2xl shadow-2xl flex flex-col justify-center items-center text-center border-4 border-white/20">
+            <h2 class="text-2xl font-bold mb-4 text-purple-200">A Secret Vow</h2>
+            <p class="text-lg opacity-90 leading-relaxed">The boy would always make sure that his gloves and elbow guards were in good shape before leaving.
+                He treasured his gloves more than anything because they were tight enough to hide secrets.
+                With this layer of protection, no one could see the bandages on his hand and the wound beneath them.
+                He would be treated as if he was normal, and he would be greeted just like everyone else.
+
+                That was all he asked for.</p>
+            <span class="mt-6 text-sm bg-white/10 px-4 py-2 rounded-full italic">Clique para desvirar</span>
+        </div>
+    </div>
+</div>
+
+<div id="modal2" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 opacity-0 pointer-events-none transition-all duration-300 ease-in-out overflow-hidden [perspective:1000px]">
+    <button class="absolute top-5 right-5 text-white hover:text-gray-300 transition-colors z-[110] close-btn">
+        <i data-lucide="x" class="w-10 h-10"></i>
+    </button>
+    <div class="relative w-full max-w-sm aspect-[3/4] flip-card transition-transform duration-700 [transform-style:preserve-3d] cursor-pointer scale-90">
+        <div class="absolute inset-0 [backface-visibility:hidden]">
+            <img id="modalImg2" src="" alt="Peppy Artwork" class="w-full h-full object-cover rounded-2xl shadow-2xl border-4 border-white/20">
+        </div>
+        <div class="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] bg-indigo-900/90 text-white p-8 rounded-2xl shadow-2xl flex flex-col justify-center items-center text-center border-4 border-white/20">
+            <h2 class="text-2xl font-bold mb-4 text-pink-200">Woof! Walk Time!</h2>
+            <p class="text-lg opacity-90 leading-relaxed">Pity that no one has seen it...
+                Seen it screw up its nose and sniff around and dive into an empty path.
+
+                Pity that no one has seen it...
+                Seen it retract its claws, enter the password, and leap into the embraces of freedom.
+
+                Has nobody seen it still...?
+                A grown dog can now walk itself in space!</p>
+            <span class="mt-6 text-sm bg-white/10 px-4 py-2 rounded-full italic">Clique para desvirar</span>
+        </div>
+    </div>
+</div>
+    <script src="js/index.js"></script>
+</body>
+</html>
